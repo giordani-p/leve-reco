@@ -1,0 +1,25 @@
+# Sistema de Recomendação - Dependências Essenciais
+# Requer Python 3.12+
+
+# AI/ML
+sentence-transformers==5.1.0
+torch==2.8.0
+numpy==2.3.3
+scikit-learn==1.7.1
+
+# Database
+psycopg2-binary==2.9.9
+
+# Configuração
+python-dotenv==1.1.1
+pydantic==2.11.7
+pydantic-settings==2.10.1
+
+# HTTP
+httpx==0.28.1
+httpx[http2]==0.28.1
+
+# CLI
+typer==0.17.4
+rich==13.9.4
+tqdm==4.67.1

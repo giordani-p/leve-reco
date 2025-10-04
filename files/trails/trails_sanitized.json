@@ -1,0 +1,4535 @@
+[
+    {
+      "publicId": "6f7b0e2c-0a3d-4d9e-8a9b-bb1e6b6a9f12",
+      "slug": "guia-primeiro-emprego",
+      "title": "Guia do Primeiro Emprego",
+      "subtitle": "Do currículo à entrevista — tudo o que você precisa para começar",
+      "description": "Trilha prática para quem vai buscar a primeira vaga: como criar um currículo simples, onde procurar oportunidades e como se preparar para entrevistas iniciais.",
+      "difficulty": "Beginner",
+      "tags": ["Carreira", "Currículo", "Entrevista", "Empregabilidade", "Primeiro Emprego"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "1d3a8b62-0a23-4f9e-8b8a-8a5f5b3b9d77",
+          "title": "Módulo 1 — Currículo sem mistério",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "2a9d5f3b-6f4e-4a81-8b8e-8c1f2d9a1f10",
+              "title": "Lição 1 — Estrutura essencial do currículo",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "templateUrl": "https://example.com/modelo-cv-simples.pdf" }
+            },
+            {
+              "publicId": "3c1e7a9f-8b2d-4f40-9a8b-8d2c1f7e2b31",
+              "title": "Lição 2 — Adaptando o CV para a vaga",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Selecionar vaga", "Destacar palavras-chave", "Revisar e salvar em PDF"] }
+            }
+          ]
+        },
+        {
+          "publicId": "4e2b9c71-4d2a-4a40-8a9c-b1d2f3e4a5c6",
+          "title": "Módulo 2 — Entrevistas iniciais",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "5f3c1a82-4a5b-4c8d-9b8e-a1c2d3e4f5a6",
+              "title": "Lição 1 — Perguntas comuns e respostas objetivas",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/perguntas-comuns" }
+            },
+            {
+              "publicId": "6a4b2c93-8d1e-4f7a-8c9b-b2a3c4d5e6f7",
+              "title": "Lição 2 — Checklist pré-entrevista",
+              "order": 2,
+              "lessonKind": "quiz",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "perguntas": [{ "q": "Pesquisou a empresa?", "a": ["Sim","Não"] }, { "q": "Separou exemplos práticos?", "a": ["Sim","Não"] }] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "7a19f6e4-2a4c-4c0e-8a9d-9a6b4f2e1c35",
+      "slug": "curriculo-e-linkedin-para-iniciantes",
+      "title": "Currículo & LinkedIn para Iniciantes",
+      "subtitle": "Construa seu CV e um perfil que chama atenção",
+      "description": "Aprenda a montar um currículo claro e um perfil de LinkedIn básico, com foco em primeiras oportunidades e estágios.",
+      "difficulty": "Beginner",
+      "tags": ["Currículo", "LinkedIn", "Empregabilidade", "Estágio", "Primeiro Emprego"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "8b2c3d4e-5f60-4a71-8b82-9c0d1e2f3a45",
+          "title": "Módulo 1 — CV direto ao ponto",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "9c3d4e5f-6a70-4b81-9c93-a0b1c2d3e4f5",
+              "title": "Lição 1 — O que incluir e o que evitar",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "checklist": ["Contato", "Objetivo", "Educação", "Experiências/Projetos", "Cursos", "Habilidades"] }
+            },
+            {
+              "publicId": "a0d1e2f3-4a56-4b67-8c78-9d0e1f2a3b4c",
+              "title": "Lição 2 — Personalizando com palavras-chave",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Ler descrição da vaga", "Mapear termos", "Atualizar CV", "Salvar e revisar"] }
+            }
+          ]
+        },
+        {
+          "publicId": "b1e2f3a4-5b6c-4d7e-8f90-a1b2c3d4e5f6",
+          "title": "Módulo 2 — LinkedIn básico que funciona",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "c2f3a4b5-6c7d-4e8f-9a01-b2c3d4e5f6a7",
+              "title": "Lição 1 — Foto, título e sobre você",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/linkedin-basico" }
+            },
+            {
+              "publicId": "d3a4b5c6-7d8e-4f90-a112-c3d4e5f6a7b8",
+              "title": "Lição 2 — Networking inicial sem ser chato",
+              "order": 2,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "dicas": ["Conectar colegas e professores", "Comentar com propósito", "Post curto sobre aprendizado"] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "e18a4b7c-3c52-4a41-8b9a-8f2c1d0e4f91",
+      "slug": "entrevista-metodo-star",
+      "title": "Entrevista: Método STAR na Prática",
+      "subtitle": "Responda perguntas com clareza usando Situação, Tarefa, Ação e Resultado",
+      "description": "Domine o método STAR para responder perguntas comportamentais e conte histórias que mostram sua capacidade na prática.",
+      "difficulty": "Beginner",
+      "tags": ["Entrevista", "Comportamental", "STAR", "Carreira", "Empregabilidade"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "f29b5c8d-4d63-4b52-8c9b-9a0b1c2d3e47",
+          "title": "Módulo 1 — Dominando o STAR",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "0123abcd-4e56-4f78-8a90-b1c2d3e4f5a6",
+              "title": "Lição 1 — O que é o STAR e quando usar",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "exemplos": ["Trabalho em equipe", "Resolução de problemas", "Organização"] }
+            },
+            {
+              "publicId": "1234bcde-5f67-4a89-9b01-c2d3e4f5a6b7",
+              "title": "Lição 2 — Criando sua biblioteca de histórias",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Escolher 3 experiências", "Mapear S-T-A-R", "Ensaiar em voz alta"] }
+            }
+          ]
+        },
+        {
+          "publicId": "2345cdef-6789-4ab0-8c12-d3e4f5a6b7c8",
+          "title": "Módulo 2 — Treino de respostas",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "3456def0-789a-4bc1-8d23-e4f5a6b7c8d9",
+              "title": "Lição 1 — Responda: 'Fale sobre você'",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/como-se-apresentar" }
+            },
+            {
+              "publicId": "4567ef01-89ab-4cd2-9e34-f5a6b7c8d9e0",
+              "title": "Lição 2 — Quiz de situações reais",
+              "order": 2,
+              "lessonKind": "quiz",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "perguntas": [{ "q": "Conte um erro que cometeu e o que aprendeu.", "a": ["Tenho um exemplo", "Prefiro pular"] }] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "5a7b9c1d-2e3f-4a50-8b61-7c8d9e0f1a2b",
+      "slug": "soft-skills-essenciais",
+      "title": "Soft Skills Essenciais",
+      "subtitle": "Comunicação, organização e atitude profissional para seu primeiro trabalho",
+      "description": "Desenvolva habilidades comportamentais que fazem diferença no início da carreira: comunicação, responsabilidade e trabalho em equipe.",
+      "difficulty": "Beginner",
+      "tags": ["Soft Skills", "Comunicação", "Trabalho em Equipe", "Carreira", "Primeiro Emprego"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "6b8c9d1e-3f4a-4b62-9c73-8d9e0f1a2b3c",
+          "title": "Módulo 1 — Comunicação que funciona",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "7c9d1e2f-4a5b-4c73-8d84-9e0f1a2b3c4d",
+              "title": "Lição 1 — Como se comunicar no trabalho",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "dicas": ["Ser claro e objetivo", "Confirmar entendimento", "Registrar combinados"] }
+            },
+            {
+              "publicId": "8d1e2f3a-5b6c-4d84-9e95-a0f1a2b3c4d5",
+              "title": "Lição 2 — Feedback na prática",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Pedir feedback", "Ouvir sem defender", "Definir próximos passos"] }
+            }
+          ]
+        },
+        {
+          "publicId": "9e2f3a4b-6c7d-4e95-a0b6-b1a2b3c4d5e6",
+          "title": "Módulo 2 — Organização e postura",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "a3f4b5c6-7d8e-4fa6-b1c7-c2b3c4d5e6f7",
+              "title": "Lição 1 — Agenda, prazos e priorização",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/organizacao-basica" }
+            },
+            {
+              "publicId": "b4c5d6e7-8e9f-4ab7-b2c8-d3c4d5e6f7a8",
+              "title": "Lição 2 — Quiz de etiqueta profissional",
+              "order": 2,
+              "lessonKind": "quiz",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "perguntas": [{ "q": "Chego 5 minutos antes ou no horário?", "a": ["Antes", "No horário"] }] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "c7d8e9f0-1a2b-4c3d-8e9f-a1b2c3d4e5f6",
+      "slug": "atendimento-ao-cliente-iniciante",
+      "title": "Atendimento ao Cliente para Iniciantes",
+      "subtitle": "Postura, comunicação e resolução de problemas no dia a dia",
+      "description": "Entre no mundo do atendimento com noções práticas de comunicação, empatia e registro das interações.",
+      "difficulty": "Beginner",
+      "tags": ["Atendimento", "Comunicação", "Varejo", "Call Center", "Primeiro Emprego"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "d8e9f0a1-2b3c-4d5e-9f01-b2c3d4e5f6a7",
+          "title": "Módulo 1 — Fundamentos do atendimento",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "e9f0a1b2-3c4d-4e5f-a012-c3d4e5f6a7b8",
+              "title": "Lição 1 — Boa comunicação e empatia",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "checklist": ["Cumprimento cordial", "Escuta ativa", "Confirmar solução"] }
+            },
+            {
+              "publicId": "f0a1b2c3-4d5e-4f60-a123-d4e5f6a7b8c9",
+              "title": "Lição 2 — Registrando atendimentos",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Anotar dados", "Resumo objetivo", "Encaminhar quando necessário"] }
+            }
+          ]
+        },
+        {
+          "publicId": "0a1b2c3d-4e5f-4a61-b234-e5f6a7b8c9d0",
+          "title": "Módulo 2 — Situações difíceis",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "1b2c3d4e-5f60-4b72-c345-f6a7b8c9d0e1",
+              "title": "Lição 1 — Lidando com clientes irritados",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/clientes-dificeis" }
+            },
+            {
+              "publicId": "2c3d4e5f-6071-4c83-d456-a7b8c9d0e1f2",
+              "title": "Lição 2 — Quiz: qual é a melhor resposta?",
+              "order": 2,
+              "lessonKind": "quiz",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "perguntas": [{ "q": "Cliente sem nota fiscal: o que fazer?", "a": ["Explicar opções", "Encerrar atendimento"] }] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "3e4f5a6b-7c8d-4e9f-a0b1-b2c3d4e5f6a7",
+      "slug": "rotina-administrativa",
+      "title": "Rotina Administrativa",
+      "subtitle": "Organização, planilhas e comunicação no escritório",
+      "description": "Aprenda a organizar tarefas, usar planilhas simples e se comunicar com clareza em ambientes administrativos.",
+      "difficulty": "Beginner",
+      "tags": ["Administrativo", "Planilhas", "Comunicação", "Organização", "Escritório"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "4f5a6b7c-8d9e-4fa0-b1c2-c3d4e5f6a7b8",
+          "title": "Módulo 1 — Organização e registros",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "5a6b7c8d-9e0f-4ab1-c2d3-d4e5f6a7b8c9",
+              "title": "Lição 1 — Controle básico de tarefas",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "templateUrl": "https://example.com/checklist-tarefas.xlsx" }
+            },
+            {
+              "publicId": "6b7c8d9e-0f1a-4bc2-d3e4-e5f6a7b8c9d0",
+              "title": "Lição 2 — Arquivo físico e digital",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Nomear arquivos", "Pasta por assunto", "Backup simples"] }
+            }
+          ]
+        },
+        {
+          "publicId": "7c8d9e0f-1a2b-4cd3-e4f5-f6a7b8c9d0e1",
+          "title": "Módulo 2 — Planilhas e e-mail",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "8d9e0f1a-2b3c-4de4-f5a6-a7b8c9d0e1f2",
+              "title": "Lição 1 — Planilha de controle simples",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/planilha-basica" }
+            },
+            {
+              "publicId": "9e0f1a2b-3c4d-4ef5-a6b7-b8c9d0e1f2a3",
+              "title": "Lição 2 — E-mails claros e objetivos",
+              "order": 2,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "dicas": ["Assunto específico", "Parágrafos curtos", "CTA claro"] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "a8b9c0d1-2e3f-4a50-b6c7-d8e9f0a1b2c3",
+      "slug": "vendas-iniciantes",
+      "title": "Vendas para Iniciantes",
+      "subtitle": "Abordagem, escuta e fechamento de forma prática",
+      "description": "Fundamentos de vendas para quem está começando: como abordar, entender necessidades e apresentar soluções.",
+      "difficulty": "Beginner",
+      "tags": ["Vendas", "Comunicação", "Varejo", "Atendimento", "Primeiro Emprego"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "b9c0d1e2-3f4a-4b61-c7d8-e9f0a1b2c3d4",
+          "title": "Módulo 1 — Fundamentos de vendas",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "c0d1e2f3-4a5b-4c72-d8e9-f0a1b2c3d4e5",
+              "title": "Lição 1 — Abordagem e escuta ativa",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "checklist": ["Cumprimentar", "Perguntar e ouvir", "Confirmar interesse"] }
+            },
+            {
+              "publicId": "d1e2f3a4-5b6c-4d83-e9f0-a1b2c3d4e5f6",
+              "title": "Lição 2 — Apresentação de valor",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Conhecer produto", "Traduzir benefícios", "Fechar com próximo passo"] }
+            }
+          ]
+        },
+        {
+          "publicId": "c1d2e3f4-5a6b-4e94-d0e1-f2a3b4c5d6e7",
+          "title": "Módulo 2 — Lidando com objeções",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "e2f3a4b5-6c7d-4fa5-a1b2-b3c4d5e6f7a8",
+              "title": "Lição 1 — Objeções comuns e respostas",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/objeções-comuns" }
+            },
+            {
+              "publicId": "f3a4b5c6-7d8e-4ab6-b2c3-c4d5e6f7a8b9",
+              "title": "Lição 2 — Quiz de cenários de venda",
+              "order": 2,
+              "lessonKind": "quiz",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "perguntas": [{ "q": "Cliente diz que está caro. O que fazer?", "a": ["Explorar valor", "Dar desconto sem entender"] }] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "d2e3f4a5-6b7c-4d8e-9f01-02a3b4c5d6e7",
+      "slug": "fundamentos-tecnologia-basica",
+      "title": "Tecnologia Básica para o Trabalho",
+      "subtitle": "E-mail, documentos e noções de segurança digital",
+      "description": "Domine ferramentas básicas de escritório e boas práticas de segurança para o dia a dia profissional.",
+      "difficulty": "Beginner",
+      "tags": ["Tecnologia", "Produtividade", "Office", "Segurança Digital", "Primeiro Emprego"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "e3f4a5b6-7c8d-4e9f-a012-13b4c5d6e7f8",
+          "title": "Módulo 1 — Ferramentas essenciais",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "f4a5b6c7-8d9e-4fa0-b123-24c5d6e7f8a9",
+              "title": "Lição 1 — E-mail profissional e agenda",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "dicas": ["Assunto objetivo", "Responder em até 24h", "Convites de agenda"] }
+            },
+            {
+              "publicId": "0a5b6c7d-9e0f-4ab1-c234-35d6e7f8a9b0",
+              "title": "Lição 2 — Documentos e armazenamento",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Criar doc", "Nomear padrão", "Organizar em pastas"] }
+            }
+          ]
+        },
+        {
+          "publicId": "f5a6b7c8-9d0e-4ab1-b234-46d7e8f9a0b1",
+          "title": "Módulo 2 — Segurança digital básica",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "1a6b7c8d-0e1f-4bc2-c345-57e8f9a0b1c2",
+              "title": "Lição 1 — Senhas e autenticação",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/senhas-2fa" }
+            },
+            {
+              "publicId": "2b7c8d9e-1f20-4cd3-d456-68f9a0b1c2d3",
+              "title": "Lição 2 — Quiz: golpes e phishing",
+              "order": 2,
+              "lessonKind": "quiz",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "perguntas": [{ "q": "Link suspeito no e-mail. O que fazer?", "a": ["Não clicar e reportar", "Clicar para conferir"] }] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "e4f5a6b7-8c9d-4e0f-a1b2-b3c4d5e6f7a8",
+      "slug": "introducao-logistica",
+      "title": "Introdução à Logística",
+      "subtitle": "Noções de estoque, recebimento e separação",
+      "description": "Conceitos básicos de logística para funções de entrada: conferência, organização e cuidados com segurança.",
+      "difficulty": "Beginner",
+      "tags": ["Logística", "Estoque", "Operações", "Segurança", "Empregabilidade"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "f6a7b8c9-0d1e-4f2a-b3c4-c5d6e7f8a9b0",
+          "title": "Módulo 1 — Rotina de estoque",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "07b8c9d0-1e2f-4a3b-c4d5-d6e7f8a9b0c1",
+              "title": "Lição 1 — Recebimento e conferência",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "checklist": ["Conferir nota", "Quantidades", "Integridade"] }
+            },
+            {
+              "publicId": "18c9d0e1-2f30-4b4c-d5e6-e7f8a9b0c1d2",
+              "title": "Lição 2 — Endereçamento simples",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Criar mapa", "Etiquetar prateleiras", "Registrar posição"] }
+            }
+          ]
+        },
+        {
+          "publicId": "07c8d9e0-1f20-4c3d-d4e5-f6a7b8c9d0e1",
+          "title": "Módulo 2 — Segurança e EPIs",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "29d0e1f2-3041-4d5e-e6f7-a8b9c0d1e2f3",
+              "title": "Lição 1 — Cuidados no armazém",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/seguranca-armazem" }
+            },
+            {
+              "publicId": "3ae1f203-4152-4e6f-f708-b9c0d1e2f3a4",
+              "title": "Lição 2 — Quiz: EPIs obrigatórios",
+              "order": 2,
+              "lessonKind": "quiz",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "perguntas": [{ "q": "Quando usar luvas e botas?", "a": ["Sempre que houver risco", "Só quando quiser"] }] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "f7a8b9c0-1d2e-4f50-a6b7-c8d9e0f1a2b3",
+      "slug": "procurando-vagas-com-eficiencia",
+      "title": "Procurando Vagas com Eficiência",
+      "subtitle": "Onde procurar e como organizar sua busca",
+      "description": "Aprenda a buscar vagas em diferentes fontes, filtrar oportunidades e manter um controle simples das candidaturas.",
+      "difficulty": "Beginner",
+      "tags": ["Empregabilidade", "Busca de Vagas", "Organização", "Carreira", "Primeiro Emprego"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "08b9c0d1-2e3f-4a61-b7c8-d9e0f1a2b3c4",
+          "title": "Módulo 1 — Onde estão as vagas",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "19c0d1e2-3f40-4b72-c8d9-e0f1a2b3c4d5",
+              "title": "Lição 1 — Sites, apps e redes",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "lista": ["Plataformas de vagas", "LinkedIn", "Indicações"] }
+            },
+            {
+              "publicId": "2ad1e2f3-4051-4c83-d9e0-f1a2b3c4d5e6",
+              "title": "Lição 2 — Alertas e filtros úteis",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Criar alertas", "Definir palavras-chave", "Salvar vagas"] }
+            }
+          ]
+        },
+        {
+          "publicId": "19c1d2e3-4052-4d94-e0f1-a2b3c4d5e6f7",
+          "title": "Módulo 2 — Controle de candidaturas",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "2be2f304-5163-4ea5-f1a2-b3c4d5e6f7a8",
+              "title": "Lição 1 — Planilha de candidaturas",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/planilha-candidaturas" }
+            },
+            {
+              "publicId": "3cf30415-6274-4fb6-a2b3-c4d5e6f7a8b9",
+              "title": "Lição 2 — Follow-up sem exagero",
+              "order": 2,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "dicas": ["Aguarde 5–7 dias", "Mensagem curta e educada", "Agradeça sempre"] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "0b1c2d3e-4f50-4a61-972a-b3c4d5e6f7a8",
+      "slug": "jovem-aprendiz-na-pratica",
+      "title": "Jovem Aprendiz na Prática",
+      "subtitle": "Como se candidatar e o que esperar do programa",
+      "description": "Entenda requisitos, documentos, rotina e como aproveitar ao máximo a experiência como Jovem Aprendiz.",
+      "difficulty": "Beginner",
+      "tags": ["Jovem Aprendiz", "Empregabilidade", "Carreira", "Primeiro Emprego", "Documentação"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "1c2d3e4f-5061-4b72-a83b-c4d5e6f7a8b9",
+          "title": "Módulo 1 — Requisitos e candidatura",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "2d3e4f50-6172-4c83-b94c-d5e6f7a8b9c0",
+              "title": "Lição 1 — Quem pode participar e documentos",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "checklist": ["RG/CPF", "Comprovante escolar", "Currículo"] }
+            },
+            {
+              "publicId": "3e4f5061-7283-4d94-c0ad-e6f7a8b9c0d1",
+              "title": "Lição 2 — Onde encontrar vagas de aprendiz",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Sites especializados", "Instituições formadoras", "Parcerias locais"] }
+            }
+          ]
+        },
+        {
+          "publicId": "2d3e5f60-7182-4c93-a04b-d6e7f8a9b0c1",
+          "title": "Módulo 2 — Rotina e desenvolvimento",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "4f607182-8394-4da5-b15c-e7f8a9b0c1d2",
+              "title": "Lição 1 — Direitos, deveres e postura",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/jovem-aprendiz-direitos" }
+            },
+            {
+              "publicId": "5f718293-94a5-4eb6-c26d-f8a9b0c1d2e3",
+              "title": "Lição 2 — Plano simples de evolução",
+              "order": 2,
+              "lessonKind": "quiz",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "perguntas": [{ "q": "Como registrar aprendizados semanais?", "a": ["Diário de bordo", "Confiar na memória"] }] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "1c2e3f4a-5b6d-4e70-8a91-b2c3d4e5f6a7",
+      "slug": "autoconhecimento-para-escolhas",
+      "title": "Autoconhecimento para Boas Escolhas",
+      "subtitle": "Valores, interesses e pontos fortes na prática",
+      "description": "Descubra seus interesses e valores para escolher trilhas e vagas que combinem com você.",
+      "difficulty": "Beginner",
+      "tags": ["Autoconhecimento", "Carreira", "Orientação", "Valores", "Interesses"],
+      "status": "Published",
+      "Modules": [
+        {
+          "publicId": "2d3f4a5b-6c7e-4f81-9a02-c3d4e5f6a7b8",
+          "title": "Módulo 1 — Quem sou eu no trabalho?",
+          "order": 1,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "3e4f5a6b-7d8f-4a92-a113-d4e5f6a7b8c9",
+              "title": "Lição 1 — Interesses e valores na prática",
+              "order": 1,
+              "lessonKind": "reading",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "exercicios": ["Lista de 10 interesses", "Top 5 valores", "Exemplos do dia a dia"] }
+            },
+            {
+              "publicId": "4f506172-8394-4ba3-b224-e5f6a7b8c9d0",
+              "title": "Lição 2 — Pontos fortes em histórias",
+              "order": 2,
+              "lessonKind": "practice",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "passos": ["Escolher 2 situações", "Descrever impacto", "Relacionar com vagas"] }
+            }
+          ]
+        },
+        {
+          "publicId": "3e5f6a7b-8c9e-4cb4-c335-f6a7b8c9d0e1",
+          "title": "Módulo 2 — Decidindo próximos passos",
+          "order": 2,
+          "contentStatus": "Ready",
+          "Lessons": [
+            {
+              "publicId": "50617283-94a5-4dc5-d446-a7b8c9d0e1f2",
+              "title": "Lição 1 — Mapa simples de carreira",
+              "order": 1,
+              "lessonKind": "video",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "videoUrl": "https://example.com/mapa-carreira" }
+            },
+            {
+              "publicId": "61728394-a5b6-4ed6-e557-b8c9d0e1f2a3",
+              "title": "Lição 2 — Quiz: qual trilha combina mais?",
+              "order": 2,
+              "lessonKind": "quiz",
+              "lessonStatus": "Available",
+              "lockReason": null,
+              "contentStatus": "Ready",
+              "data": { "perguntas": [{ "q": "Você prefere lidar com pessoas ou processos?", "a": ["Pessoas", "Processos"] }] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "publicId": "a571875f-e8f0-4cc7-af75-cace2caeef07",
+        "slug": "curriculo-essencial",
+        "title": "Currículo Essencial",
+        "subtitle": "Como montar um currículo do zero",
+        "description": "Passo a passo simples para criar um currículo objetivo, claro e atrativo para o primeiro emprego.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Currículo",
+          "Empregabilidade",
+          "Carreira"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "ff2abff9-c3b6-4d97-840a-acd0a154d534",
+            "title": "Estrutura básica do CV",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "13afded3-b94e-415b-8bde-d693f9701029",
+                "title": "O que colocar no currículo",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "checklist": [
+                    "Dados pessoais",
+                    "Objetivo",
+                    "Educação",
+                    "Experiências ou Projetos"
+                  ]
+                }
+              },
+              {
+                "publicId": "bff0fe6e-5f10-4bc0-8c1d-0aaad466e4c9",
+                "title": "Crie seu primeiro CV",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Abra modelo",
+                    "Preencha dados",
+                    "Salve em PDF"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "b781dbed-4419-4dc5-83fa-01575260e4db",
+            "title": "Dicas rápidas",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "e901a6e1-34d6-427d-9417-e17101870f9f",
+                "title": "Currículo em 5 minutos",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/cv-video"
+                }
+              },
+              {
+                "publicId": "17b590e4-0a9b-4153-ba44-305b4f71f34b",
+                "title": "O que não pode faltar",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Devo colocar foto?",
+                      "a": [
+                        "Não é obrigatório"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "788c7142-26c2-4a06-a529-b71fc1556c76",
+        "slug": "simulacao-entrevista",
+        "title": "Simulação de Entrevista",
+        "subtitle": "Pratique respostas para entrevistas de emprego",
+        "description": "Uma trilha prática com perguntas simuladas para treinar entrevistas de trabalho.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Entrevista",
+          "Simulação",
+          "Carreira"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "11c6c2e6-1ee5-4968-bca7-170fe99d710f",
+            "title": "Perguntas frequentes",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "dfc4cc2a-d95b-47b8-ae1d-a9f299c63d23",
+                "title": "Simulado 1 — Perguntas gerais",
+                "order": 1,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Fale sobre você",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "publicId": "c91294b8-4897-4a00-bc5c-c94a63fc83da",
+                "title": "Simulado 2 — Pontos fortes e fracos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Quais são seus pontos fortes?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "975539a6-dae6-41b7-b4ba-779265823f76",
+            "title": "Feedback e postura",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "39ec0008-a66c-43ac-8b8d-2c37b98ef8eb",
+                "title": "Como melhorar sua resposta",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Use exemplos práticos",
+                    "Seja objetivo"
+                  ]
+                }
+              },
+              {
+                "publicId": "b8e1dfb5-bdd4-47e4-a381-a4072f9a1a46",
+                "title": "Linguagem corporal na entrevista",
+                "order": 2,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/postura"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "01175425-d5be-4aa3-b107-f6c3f7240771",
+        "slug": "como-agir-entrevista",
+        "title": "Como Agir em Entrevistas",
+        "subtitle": "Postura, linguagem e comportamento",
+        "description": "Aprenda a se comportar em entrevistas: linguagem verbal, postura e o que evitar.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Entrevista",
+          "Postura",
+          "Carreira"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "916e76ae-edf8-44e5-bf34-1717d76dba1e",
+            "title": "Comportamento básico",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "ae1b74d0-2d59-416b-b76c-6c43b57f02be",
+                "title": "Vestimenta adequada",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Evite roupas chamativas",
+                    "Prefira o simples e profissional"
+                  ]
+                }
+              },
+              {
+                "publicId": "2fff8d5f-b4c5-43cc-a9dd-587df2e0c774",
+                "title": "Treine sua apresentação",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Se apresente em 1 minuto",
+                    "Revise no espelho"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "6504a50b-a6ea-45dc-8b47-bb1ad215bc87",
+            "title": "Durante a entrevista",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "79d148be-cd77-4157-a463-57e9e9e53527",
+                "title": "Expressão corporal positiva",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/bodylanguage"
+                }
+              },
+              {
+                "publicId": "97c96669-326f-4ad5-bfc6-821f05d0cf56",
+                "title": "Devo fazer perguntas?",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "É adequado perguntar sobre a vaga?",
+                      "a": [
+                        "Sim, mostra interesse"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "35d99a9d-a2b1-432b-afdb-ed0285320022",
+        "slug": "apoio-psicologico",
+        "title": "Apoio Psicológico para Entrevistas",
+        "subtitle": "Controle a ansiedade antes e durante",
+        "description": "Estratégias práticas para lidar com nervosismo e ansiedade em entrevistas.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Psicologia",
+          "Entrevista",
+          "Bem-estar"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "4bbb1fcb-ad4c-4f26-ab4b-1928beba3d47",
+            "title": "Preparação mental",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "051e2b5d-1899-47cb-802a-b5c0773a8db7",
+                "title": "Respiração e foco",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Respire fundo",
+                    "Conte até 5",
+                    "Mantenha calma"
+                  ]
+                }
+              },
+              {
+                "publicId": "4f267462-b8a0-4e80-9533-797219059373",
+                "title": "Exercício pré-entrevista",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Respiração guiada",
+                    "Visualizar sucesso"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "9bc8eb6f-bdf2-4b90-b61a-37fbab62bc56",
+            "title": "Durante a entrevista",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "fe433f0f-9b98-4262-8c94-9173829efa69",
+                "title": "Como manter a calma",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/calma"
+                }
+              },
+              {
+                "publicId": "8decee05-ff29-4369-9bf9-df2c1564ca3f",
+                "title": "O que fazer se travar",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Se esquecer algo, o que fazer?",
+                      "a": [
+                        "Pedir um momento e retomar"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "f5dd2e8a-7d9b-4704-8220-114b0b3de291",
+        "slug": "linkedin-parcerias",
+        "title": "LinkedIn & Plataformas Parceiras",
+        "subtitle": "Use LinkedIn, Catho e InfoJobs a seu favor",
+        "description": "Trilha sobre linkedin & plataformas parceiras com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "LinkedIn",
+          "Vagas",
+          "Parcerias"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "54e4b033-2e3f-4490-aa2e-0b3b12c8d952",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "9871e2c3-5ada-4dbb-bdd7-1f93a0d0fe30",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "c4f9a8fa-6500-491f-b6fb-71473be72fb3",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "3ca3d8f4-4794-44ed-a68d-8ce4107a7c32",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "fa928570-594b-4c51-a24c-011fdbf33d88",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "1737c3bc-c1f0-4b19-bea4-29ef97a93097",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "9440c059-96a1-4b91-8bde-cc6b66921472",
+        "slug": "perguntas-entrevista",
+        "title": "Perguntas de Entrevista",
+        "subtitle": "Quais perguntas fazer e como responder",
+        "description": "Trilha sobre perguntas de entrevista com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Entrevista",
+          "Perguntas",
+          "Carreira"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "98c8c3f1-bcfc-4092-a435-1b9a5545969a",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "5b12f97f-aca9-456d-9ae0-5e3fca451543",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "3dce92e6-56d0-4d8b-afb6-701c043498af",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "8f3a8ee1-3e2b-4a4d-b6fe-0a9f83b9011c",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "7596b6b6-ed5b-432a-854d-eee53e7a0aba",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "54aa768b-d210-4344-a0af-8fb14e602282",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "7c6188ec-cfb8-4142-8029-00fdfcb230b7",
+        "slug": "curriculo-avancado",
+        "title": "Currículo Avançado",
+        "subtitle": "Destaque pontos fortes e diferenciais",
+        "description": "Trilha sobre currículo avançado com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Currículo",
+          "Empregabilidade"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "329afa34-c568-4738-b2e3-7d8e40cb1fc9",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "60b9ec82-b289-4373-927f-a97fbb48a717",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "00e18f85-185b-48a7-96bd-d575058950df",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "17f83ae8-d90f-4525-bd4f-8e6ac40d8b7c",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "532f4c1d-b161-484e-9aeb-fd2ceb7b2dcb",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "b8f830e6-efad-419b-9d4c-bafc84794059",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "2d45eddd-ad0a-4d29-8fed-9c9e4be9a3c9",
+        "slug": "postura-profissional",
+        "title": "Postura Profissional",
+        "subtitle": "Como se portar no ambiente de trabalho",
+        "description": "Trilha sobre postura profissional com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Carreira",
+          "Postura",
+          "Soft Skills"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "738e0ddd-4a94-4b98-aba0-a492bdde45ac",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "24cc0718-1c7d-43d1-a76d-59a955b508b8",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "a88fddbc-1cc1-4033-b529-86eff23ae19b",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "87b78e8d-6b00-432a-9d57-97b3d184b3dd",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "85b79471-5c7d-49be-81ca-0059657b277f",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "7d799a53-2430-4925-a306-f5735f88b410",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "1a97182a-2288-474e-b9df-c45ab7671ca0",
+        "slug": "primeira-vaga-local",
+        "title": "Encontrando Vagas Perto de Você",
+        "subtitle": "Busque oportunidades na sua região",
+        "description": "Trilha sobre encontrando vagas perto de você com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Vagas",
+          "Localização",
+          "Carreira"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "bba08f7d-a4ef-47a8-b7c6-27bce5d4279b",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "5ca30c8e-5bbc-46fa-adad-9422ce23b4b7",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "78214c33-b479-4592-8070-ac919d0db4ca",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "96ebca32-b5c2-4bc5-9d71-52a86c279049",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "649366bc-6012-4d36-9940-de524e4915f1",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "eeff0a56-ad74-411f-9427-a05ad933ea7b",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "38944380-03d7-4b18-b00a-b6421e49c968",
+        "slug": "treino-linguagem",
+        "title": "Treino de Linguagem",
+        "subtitle": "Melhore comunicação verbal e escrita",
+        "description": "Trilha sobre treino de linguagem com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Comunicação",
+          "Soft Skills"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "488cca51-1cc7-4371-a40b-5832fc9cc842",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "409c0299-12ce-4b9c-a545-be0396133034",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "8f05459f-d25c-4df4-8e46-750a80c6d3ef",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "c591e3db-daac-4807-8020-c3af09b961ad",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "8b5d6973-ff65-4118-844e-f256fe01a3f7",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "0d5f16b6-d1f0-4672-8aab-4fdab4e84478",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "e8aca777-8355-4abd-821a-806390e745d9",
+        "slug": "caminhos-carreira",
+        "title": "Caminhos de Carreira",
+        "subtitle": "Entenda áreas e funções possíveis",
+        "description": "Trilha sobre caminhos de carreira com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Carreira",
+          "Orientação"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "36f86ebf-fa70-487b-8a73-c7e65deaaf69",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "8656dada-09eb-4abc-a7f0-08cab1b940fa",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "cb43ff8b-a30c-4843-a03d-e5d6863d183f",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "1130c2ce-efc5-4ec1-9fe1-02f0eff473f4",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "fd49731d-b376-4346-bb21-fee20b54e5c9",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "725c9f2f-5fcd-4a30-9a44-452ae706a995",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "633511bd-1684-4e60-b7e8-68bb514cd9fa",
+        "slug": "primeiro-trabalho",
+        "title": "Primeiro Trabalho",
+        "subtitle": "O que esperar e como se adaptar",
+        "description": "Trilha sobre primeiro trabalho com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Carreira",
+          "Primeiro Emprego"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "65a72cfb-76fa-4041-8d27-57d113ae8c75",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "89782efa-7b1e-45dc-bce9-8e375badda48",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "5d54d567-aac3-4d6a-bf23-588a176b2497",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "a6ecd8ce-73ec-4458-bba2-b7c1bf97de97",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "6842d76e-cafb-4585-90d0-d5d2a097c6b9",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "763de076-ed0d-4d41-b8ee-306071d76edd",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "879182ad-413b-430f-9ab4-f34aba304ed5",
+        "slug": "questoes-frequentes",
+        "title": "Questões Frequentes em Entrevistas",
+        "subtitle": "As perguntas mais comuns e como responder",
+        "description": "Trilha sobre questões frequentes em entrevistas com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Entrevista",
+          "Carreira"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "49e2e964-a525-46cd-b695-92b09846d04d",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "48dda2d2-fee1-4eeb-9ba9-a2660ee7e70b",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "8c9745b4-2693-46d5-9d97-9665f5d6fb48",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "0e0ee5ea-57b0-4915-9b06-b5825dae52d4",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "f87751ef-1f53-4704-b150-42d7a9a06f12",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "9303275e-56cc-4b4e-abfd-23d0a887e5a3",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "c7c53263-c9a1-486a-9c6d-2fa184765def",
+        "slug": "simulador-vaga-ideal",
+        "title": "Simulador de Vaga Ideal",
+        "subtitle": "Teste entrevista focada na sua área",
+        "description": "Trilha sobre simulador de vaga ideal com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Entrevista",
+          "Simulação"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "665a1a7e-9f86-4c53-bf08-a33856a805ad",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "100e8db5-d5dc-46e3-978c-6d8f1199cb2a",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "517c047f-9101-466e-9720-009fbb7d219e",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "69c05303-be8c-4082-93bf-764829a10aa0",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "2015c1af-bce2-48ad-8e74-eee5f86161f6",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "7a46cd68-8d41-4f23-a1be-569cf6f9f02b",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "bef8d729-8929-4044-8cd0-f46728656a30",
+        "slug": "dicas-emprego",
+        "title": "Dicas para Melhorar Empregabilidade",
+        "subtitle": "Pequenas mudanças que abrem portas",
+        "description": "Trilha sobre dicas para melhorar empregabilidade com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Empregabilidade",
+          "Carreira"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "6d97d223-fdbe-4a2e-a01e-fcd2c7ac12e4",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "bb110ac2-19c1-4994-989e-c2c2cb35be92",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "7fe10e62-362b-4ab7-be34-7d8c0166a798",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "c82f8f0b-fecb-40f3-b086-47e91b94db73",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "3af7c96a-95db-4699-b969-89da0b23a276",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "850c58c9-d3bc-46b4-8c4b-06d42718e4bd",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "117d8f71-f24b-4aa4-a2bd-cfaf6c9bded4",
+        "slug": "trajetoria-inspiradora",
+        "title": "Trajetórias Inspiradoras",
+        "subtitle": "Histórias reais de jovens profissionais",
+        "description": "Trilha sobre trajetórias inspiradoras com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Carreira",
+          "Inspiração"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "cd14ca84-1557-4e59-8622-7e24c59fda3e",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "96c16817-70d5-4946-9afc-0204847e00c0",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "9c0d9047-50d8-468d-b310-942b86c6bd6a",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "27cb3b67-859c-4fdd-a3f8-7d696618ea08",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "0e2ed28b-accc-449f-8abb-98b224ddc1d5",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "8828c1eb-2e4a-4d09-b24b-765cbe1ac0c8",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "e07be441-28cd-486d-a445-278f04db8aed",
+        "slug": "aulas-entrevista",
+        "title": "Aulas de Entrevista",
+        "subtitle": "Aprenda com especialistas",
+        "description": "Trilha sobre aulas de entrevista com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Entrevista",
+          "Carreira"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "e6cd0025-eba5-4969-8efd-17413690171c",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "0ddc00a4-5f58-4668-a541-02388203b231",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "5d40436b-c2f7-4f77-a88a-b7bbc1e39d3e",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "79e918f5-b2d4-415f-b0d9-f66d7001a0a9",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "b00f240e-71d5-4793-b9cd-c55c04277d65",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "5c99bc5d-8c19-47ce-8a14-cac73e382f17",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "c71aaf73-19b6-43bf-90dc-49cdb5472e5d",
+        "slug": "questionario-perfil",
+        "title": "Questionário de Perfil",
+        "subtitle": "Descubra carreiras que combinam com você",
+        "description": "Trilha sobre questionário de perfil com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Carreira",
+          "Autoconhecimento"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "404d47cc-91be-402f-b7d4-b16d13265f6f",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "073c9513-64e9-4138-b177-a0a508d765a9",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "afdf8c72-f9b3-4820-a3c1-5ac28a4076ec",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "5efbc7db-f7e1-4a0f-9b26-a4978d690eae",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "c20bf6b6-85b7-4827-a54d-6ac5905487f2",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "a33c3de9-2fc6-426a-bc8f-4a1acbb9dd3f",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "9fba02e0-95fb-4687-a996-acecfc53d9be",
+        "slug": "linguagem-publico",
+        "title": "Como Falar em Público",
+        "subtitle": "Dicas para apresentações",
+        "description": "Trilha sobre como falar em público com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Comunicação",
+          "Soft Skills"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "e311ddf2-60d5-4c1b-8fe4-ff08ee9f8bc5",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "cdffbfc6-dd52-45f9-8453-2607cc367bf3",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "de572865-9546-4586-9e3d-1bd52f3a8514",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "789951c0-445d-407b-9da6-f7150584b88e",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "40902210-6c96-4fd5-bd31-5165a91bdc98",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "565c0f39-f186-478e-b444-db9581b3397c",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "publicId": "ef45842e-0fc7-426c-882c-b109a09cd0fc",
+        "slug": "vestimenta-postura",
+        "title": "Vestimenta e Postura",
+        "subtitle": "O que vestir e como agir",
+        "description": "Trilha sobre vestimenta e postura com dicas práticas para jovens.",
+        "difficulty": "Beginner",
+        "tags": [
+          "Entrevista",
+          "Postura"
+        ],
+        "status": "Published",
+        "Modules": [
+          {
+            "publicId": "cbc710a6-a84f-4c0a-8c4a-31cdc9033ffa",
+            "title": "Módulo 1",
+            "order": 1,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "7feff812-1649-4501-b073-a4507e66f84b",
+                "title": "Introdução",
+                "order": 1,
+                "lessonKind": "reading",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "dicas": [
+                    "Conceito básico",
+                    "Aplicação prática"
+                  ]
+                }
+              },
+              {
+                "publicId": "466292f9-b63f-48d0-96b0-40d3a7a8fcca",
+                "title": "Exercício prático",
+                "order": 2,
+                "lessonKind": "practice",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "passos": [
+                    "Exercício 1",
+                    "Exercício 2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "publicId": "1a22a90f-4dbd-42d6-b512-0c9c979676f1",
+            "title": "Módulo 2",
+            "order": 2,
+            "contentStatus": "Ready",
+            "Lessons": [
+              {
+                "publicId": "0dd0b001-ac1e-4855-9316-02b5ab7f31a2",
+                "title": "Exemplo prático",
+                "order": 1,
+                "lessonKind": "video",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "videoUrl": "https://example.com/video"
+                }
+              },
+              {
+                "publicId": "b0c8f1c1-1ec3-4f33-854d-8afa509016f3",
+                "title": "Teste seus conhecimentos",
+                "order": 2,
+                "lessonKind": "quiz",
+                "lessonStatus": "Available",
+                "lockReason": null,
+                "contentStatus": "Ready",
+                "data": {
+                  "perguntas": [
+                    {
+                      "q": "Ponto essencial aprendido?",
+                      "a": [
+                        "Resposta livre"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+
+  {
+    "publicId": "fb2e78dd-93c9-4450-adea-4b2283145b2b",
+    "slug": "direitos-basicos",
+    "title": "Direitos Básicos no Trabalho",
+    "subtitle": "O que todo jovem trabalhador precisa saber",
+    "description": "Explicação simples sobre férias, 13º e carteira assinada para quem está começando.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Direitos",
+      "Trabalho",
+      "CLT"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "158f206c-50b1-43bd-925b-519e2eedb12f",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "702e1fad-7c8a-446a-bbfd-cae552047222",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "1fc59950-c3c5-4a0f-be13-b295ad85ab66",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "1d36c9d9-b30a-43b0-81de-a5fe8e026684",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "96c7573e-7beb-4fc9-a6a4-789243412825",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "ca9d3625-c94d-4dbf-bc98-10e89d6e50a6",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "aa013d7b-e480-4c22-b23c-241319ecb4d9",
+    "slug": "abusos-no-trabalho",
+    "title": "Reconhecendo Abusos no Trabalho",
+    "subtitle": "Como identificar e o que fazer",
+    "description": "Ajuda prática para entender o que é assédio, abuso ou exploração e onde buscar apoio.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Direitos",
+      "Abusos",
+      "Proteção"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "4cf9b6fe-bcbb-4ed3-9983-545ba5e2aeb0",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "4c715115-1453-4f32-96a8-1aac509c5620",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "e212915b-74bb-4715-b68a-d5045c40fc2a",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "7992795b-e4c6-44ba-b088-c4649e0a3218",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "6fdfafcb-c680-4ac7-803a-c9faf5e4dbbe",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "99101336-e7e3-486e-a5af-4b53b9233107",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "a5d86a06-851b-45d5-8a41-73ae1ed7d525",
+    "slug": "liberdade-expressao",
+    "title": "Liberdade de Expressão",
+    "subtitle": "O que posso ou não falar no trabalho",
+    "description": "Entenda até onde vai sua liberdade de expressão sem se prejudicar no ambiente de trabalho.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Direitos",
+      "Expressão",
+      "Trabalho"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "65303f38-1dee-4dec-8de5-73c563891059",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "a3c2160d-b823-44ee-943a-b01ed857f4d4",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "afa3f6e5-aff9-4388-ac87-4be5acc101e8",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "5b5a87aa-9ab2-41e0-96fc-b13879d9d805",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "eb6bb4d0-ad5f-419d-a0ae-da4bff68c6c3",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "c159e5e3-6bbc-4c4e-8016-e67fb42b17c2",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "c7ece002-924f-4fd4-8a08-6cec7f26382d",
+    "slug": "deveres-funcionario",
+    "title": "Deveres do Funcionário",
+    "subtitle": "O que esperam de você no emprego",
+    "description": "Explicação simples sobre pontualidade, respeito e responsabilidade.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Direitos",
+      "Carreira",
+      "Trabalho"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "688f9c11-c8ee-4722-be07-acdf175578df",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "d182ed03-2d89-47c4-bfe1-9be4716192f1",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "1e3a1a3e-4ee0-4ab6-a791-be3b08127b63",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "a52b03c9-e379-461d-a772-9f9ed788f576",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "6a917f65-8e9c-499e-8ec3-5f9a0c7edaf2",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "440d23e6-cce3-43cb-ac5e-612efb479164",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "fbf27318-523f-4c58-8e16-86ac3cac4593",
+    "slug": "primeiro-salario",
+    "title": "Como Usar o Primeiro Salário",
+    "subtitle": "Passos simples para organizar seu dinheiro",
+    "description": "Dicas práticas de como não gastar tudo e guardar um pouco.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Finanças",
+      "Salário",
+      "Carreira"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "b5fdd787-0975-43e5-b006-2a7a394a4743",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "695ee177-5229-4a09-b462-6ee43b3a3c78",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "5b7e46af-94cf-4c9f-8694-07767ea9d6df",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "5fdb810e-9e8e-4bb3-a265-b78c884bb649",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "dab3e436-e945-42ea-be53-ca230e3650a8",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "666ee77a-41f4-42c3-9a17-842c572cfcde",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "a1a443b1-bdf0-4f24-97ba-41fb20a124dc",
+    "slug": "holerite",
+    "title": "Entendendo o Holerite",
+    "subtitle": "Salário, descontos e benefícios",
+    "description": "Aprenda a ler o contracheque de forma simples.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Finanças",
+      "Trabalho",
+      "Direitos"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "f22abdb5-aca5-4750-b060-6b9ddffe27f7",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "7e280e5e-9efa-4167-ac91-7abec4b406d4",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "15235dc2-f9c5-4b56-b53f-dda2f0d45aef",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "5484cbd7-3330-4f16-8fd6-8b35d0e60b12",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "f86e8d15-26b4-424b-ae01-5f7646542218",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "b83608ba-dd11-4ca9-80b4-a5e6af90fd31",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "087c9da3-1eb1-4d2a-a4fe-2b72f6048171",
+    "slug": "evitar-dividas",
+    "title": "Evitando Dívidas",
+    "subtitle": "Primeiros cuidados financeiros",
+    "description": "Como evitar entrar no vermelho logo no começo da vida profissional.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Finanças",
+      "Carreira",
+      "Bem-estar"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "38ec84a9-510c-483e-8655-e35f64be2a5d",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "9020602f-e200-4671-ac8d-16db197146dc",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "bc888699-4375-4ddb-a593-c32dc0802940",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "0cddc868-07e8-468a-a42f-34aac2702148",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "66091b90-c2ca-410f-abbf-e49084fcdcdf",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "94db35af-87c2-4e2f-852d-ecef5ce1116a",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "783f9c17-f977-4749-8316-825c5ead8b5f",
+    "slug": "vestimenta-entrevista",
+    "title": "Vestimenta para Entrevistas",
+    "subtitle": "Se vista bem sem gastar muito",
+    "description": "Orientações práticas de como se vestir em entrevistas mesmo com pouco recurso.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Postura",
+      "Entrevista",
+      "Carreira"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "09631c97-d366-4e3b-bb0c-1eefc6b0d7fc",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "73b146fc-d083-4ff6-86c9-ca2849a29698",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "9e693ca6-dfcc-4b0b-bcaa-deaac4ccab64",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "06b282a8-a1bf-445b-bf7d-808f729b358d",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "a4e2f963-e3c1-4437-b521-8a4bd668561e",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "6c0b27d6-7f5a-4d6f-af75-11749a8437b8",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "5b521275-6806-4a85-946c-e352ee186bea",
+    "slug": "comunicacao-trabalho",
+    "title": "Comunicação no Trabalho",
+    "subtitle": "Como falar de forma simples e respeitosa",
+    "description": "Dicas de como se comunicar bem com colegas e chefes.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Comunicação",
+      "Soft Skills",
+      "Carreira"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "feda26f4-53e6-4867-ad6d-9a73b82aa301",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "9959f5af-5670-45c5-a478-f26a69e9b67d",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "d37a09ba-44bd-47df-a2f4-13b781eb75c3",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "8c48e413-9280-40a3-a78a-122201e863fc",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "9ec3b28f-db67-4ed1-aa7c-9090188e426a",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "91860b28-1039-4684-98cc-ded9a28cd4b3",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "81e95abf-3dba-4dad-9211-dc6270be2014",
+    "slug": "etiqueta-profissional",
+    "title": "Etiqueta Profissional",
+    "subtitle": "O que é adequado no ambiente de trabalho",
+    "description": "Orientações práticas sobre celular, WhatsApp e reuniões.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Postura",
+      "Carreira",
+      "Trabalho"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "6098726b-4ad7-49fc-95d4-4556e2866721",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "f9bdf151-8d6c-4ad7-b721-bbe072b6e4c1",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "252632bf-3b4c-4485-9c13-034e41df2f32",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "a5015062-c6b2-495e-9831-31c50f714a2d",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "fcc86d4d-7c48-4bf2-9716-d8f45db13e51",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "a8557a54-60f7-4363-a2e4-afbb415ea5c6",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "5a901f6c-8e5e-4ae2-80fc-6186b3722fd2",
+    "slug": "trabalho-remoto",
+    "title": "Primeiros Passos no Trabalho Remoto",
+    "subtitle": "Como se organizar em casa",
+    "description": "Noções simples de disciplina, uso de computador e internet para trabalhar de casa.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Carreira",
+      "Digital",
+      "Remoto"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "75e24a1f-e481-4a46-861f-e47a069d7929",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "01705544-1a8c-458b-9ded-7b04e4e6e97b",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "572ca0aa-163d-4f11-9c86-4931a98b20b9",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "cc9bd48a-58bb-4d07-8054-2617f34d55a0",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "cb81c161-2f35-45ab-9f02-963921789cbe",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "d90d91a0-5774-4cf5-b117-046175b77ae3",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "69eb1c78-f2c1-402f-8dad-cd2bb5398e7d",
+    "slug": "marketing-digital",
+    "title": "Introdução ao Marketing Digital",
+    "subtitle": "O básico para começar",
+    "description": "Pequenos passos para entender redes sociais e vendas online.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Digital",
+      "Marketing",
+      "Carreira"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "2bf18d15-048c-4d06-a60d-c0a20dadc731",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "2a30baa3-fbe0-4260-90e0-be8d45ebf607",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "397770e8-1b65-40a1-81f9-f4ec28bfbf06",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "31d95dd4-60d2-44dd-a33a-51849bf6d592",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "42e7a213-5b64-4389-938c-42dc7ce09971",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "cbc541ec-27fd-4d6a-af28-7f35bb0d52c2",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "dba95bbd-aa69-4f4f-853e-52336e3ffbb3",
+    "slug": "ferramentas-digitais",
+    "title": "Ferramentas Digitais Básicas",
+    "subtitle": "Google e Office no dia a dia",
+    "description": "Aprenda a usar planilhas, documentos e e-mails de forma simples.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Digital",
+      "Ferramentas",
+      "Carreira"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "a0b7936b-b9d9-4585-9eb8-0a5d857b7448",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "6c131550-bcad-477e-9304-67186c4ee646",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "ac134689-d66b-407d-9d41-c8f721c7ee41",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "7b5d61a2-07da-4aa4-8b8d-a953210f1c68",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "463a2e96-b6a4-4e25-824a-ef18182b69ac",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "8976d1a7-45e5-4ca7-94e7-602bfed7792a",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "bf71ba9f-5971-46cd-a28a-effa16dec3b2",
+    "slug": "lidar-pressao",
+    "title": "Como Lidar com Pressão",
+    "subtitle": "Ansiedade e estresse no trabalho",
+    "description": "Estratégias simples para se manter calmo e produtivo.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Bem-estar",
+      "Carreira",
+      "Pressão"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "7d9b8ddf-7451-4760-9dd0-f190bfd65814",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "5c41b524-b40a-4bc4-b788-713d709d3818",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "67b16d75-cf8f-462a-ab51-1fc88eb7ff31",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "0a9a3e31-b986-4c62-9a94-52b2d1cbc2b7",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "339eddc5-389c-4f6a-a90d-b0561df58e73",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "65b40c2c-2693-42b7-8db5-5e9d8fb6ef75",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "ff24ea2b-56ed-4c5d-8bdb-803d9f9ee267",
+    "slug": "autoconfianca",
+    "title": "Construindo Autoconfiança",
+    "subtitle": "Acredite no seu valor",
+    "description": "Dicas práticas para fortalecer sua autoestima no começo da carreira.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Bem-estar",
+      "Autoconfiança",
+      "Carreira"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "2a926c9f-ae1c-497b-87cb-921dca6effd1",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "bf46a4d9-4c83-41a1-ac82-191e9a51b743",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "bcec037d-7016-4d09-bf56-5f88c9aa20fb",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "c4d502e1-8547-4b09-b170-b47cc126236d",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "ba978be7-b96b-408a-9f6e-acd2a604f6ef",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "c3e31b00-12dc-4962-b3ff-c2755609ef69",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "f882bbee-5b8c-49fc-9a04-dc5d7e0df6a0",
+    "slug": "apoio-psicologico",
+    "title": "Apoio Psicológico",
+    "subtitle": "Onde e quando buscar ajuda",
+    "description": "Explicação simples sobre quando procurar apoio psicológico e onde encontrar ajuda gratuita.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Psicologia",
+      "Bem-estar",
+      "Carreira"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "3bfd003f-84a7-4ea0-991b-85b44bd8d6d3",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "f3a6a5f5-09b0-495f-9037-77c73b444f61",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "162b19c6-8ecd-480e-b277-86572484aa43",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "d7d9e598-6f42-40bc-bcac-3e2132a6a241",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "3c63f736-91e8-4bdd-8b04-cd76d7e5afdb",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "651859db-e320-4ae9-a9d0-c433253f5711",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "4979dd25-41c3-4f10-9526-5373670fda30",
+    "slug": "trajetoria-carreira",
+    "title": "Trajetória de Carreira",
+    "subtitle": "Histórias que inspiram",
+    "description": "Exemplos de pessoas simples que cresceram na vida profissional.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Carreira",
+      "Inspiração"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "8e25aa3e-220a-494d-8f70-54de992e033b",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "4116e0f2-449a-4902-818d-9d5e00391565",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "f527f9e6-6318-4c1f-b990-027ea11d7da2",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "cca9936d-79fc-4d3d-a3d1-027cc05dc767",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "76f818c0-7feb-4b7f-9186-1b308be97d50",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "8e0861c8-ae75-4453-b43b-e29080bce5f9",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "609e1b4e-f229-4d90-becf-d037f43c72d6",
+    "slug": "questoes-entrevista",
+    "title": "Perguntas em Entrevistas",
+    "subtitle": "O que esperar e o que perguntar",
+    "description": "Prepare-se para responder e fazer perguntas em entrevistas.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Entrevista",
+      "Carreira",
+      "Perguntas"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "f7cfa4f1-a0d8-418c-9876-a80d960fb919",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "9bc79973-81fc-475c-b0b4-02a98b34b563",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "68d2d2fb-8f77-463e-bb61-44f8bdc3c160",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "2abe5bdf-0d23-4fcb-8e05-eeb5031d65ce",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "367e54f5-9a90-4eae-a8e8-34b17fccfd0a",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "cb13f1e6-95f0-40de-b5cd-8a7180c32e7f",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "50a88d94-be0f-42d4-9164-971ce6f7dc5c",
+    "slug": "vestimenta-postura",
+    "title": "Vestimenta e Postura",
+    "subtitle": "O que vestir e como agir no dia a dia",
+    "description": "Regras simples de apresentação e respeito no trabalho.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Postura",
+      "Carreira",
+      "Soft Skills"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "eeeabc85-e066-4678-8251-34ae8028c731",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "9ea5e390-48ff-4b23-bbf4-414b342c812a",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "b8302533-5813-48a9-8edc-1c13f518bea4",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "751d5ee5-bf93-4314-ae21-1c81caf9aca8",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "e9e70598-bf0e-4a05-9144-fcdbe4f121ac",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "812132f0-7616-430a-95d2-e5844e3ad5b4",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "publicId": "fc94f57f-c1e4-41c5-8683-d13b3830fec5",
+    "slug": "linguagem-publico",
+    "title": "Como Falar em Público",
+    "subtitle": "Perdendo a vergonha",
+    "description": "Dicas para apresentações simples na escola ou trabalho.",
+    "difficulty": "Beginner",
+    "tags": [
+      "Comunicação",
+      "Carreira",
+      "Soft Skills"
+    ],
+    "status": "Published",
+    "Modules": [
+      {
+        "publicId": "089e85a5-f16c-4fb1-b3a4-e9e28720db38",
+        "title": "Módulo 1",
+        "order": 1,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "ed554c22-70b5-47d3-996b-6d1988419b3c",
+            "title": "Introdução",
+            "order": 1,
+            "lessonKind": "reading",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "dicas": [
+                "Explicação simples",
+                "Exemplo prático"
+              ]
+            }
+          },
+          {
+            "publicId": "1ea93be8-e7f2-4ddb-9163-1a1142c4d9f3",
+            "title": "Exercício prático",
+            "order": 2,
+            "lessonKind": "practice",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "passos": [
+                "Atividade 1",
+                "Atividade 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "publicId": "79cda071-0d06-4f77-8eb7-10744487d089",
+        "title": "Módulo 2",
+        "order": 2,
+        "contentStatus": "Ready",
+        "Lessons": [
+          {
+            "publicId": "0a3592e8-9cb3-4e4e-907f-c494fc7c44bf",
+            "title": "Exemplo em vídeo",
+            "order": 1,
+            "lessonKind": "video",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "videoUrl": "https://example.com/video"
+            }
+          },
+          {
+            "publicId": "1207dc8d-ca5e-48be-99db-50ad43a154e5",
+            "title": "Teste rápido",
+            "order": 2,
+            "lessonKind": "quiz",
+            "lessonStatus": "Available",
+            "lockReason": null,
+            "contentStatus": "Ready",
+            "data": {
+              "perguntas": [
+                {
+                  "q": "O que você aprendeu?",
+                  "a": [
+                    "Resposta livre"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  ]
+  
