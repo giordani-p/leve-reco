@@ -101,6 +101,7 @@ class RecoConfig:
     # -----------------------------
     # Integração com API da Leve
     # -----------------------------
+    SOURCE: str = "api"  # Fonte de dados: "api" ou "files"
     TRAILS_API_BASE: str = "http://localhost:3030"  # URL base da API
     API_FILTER_PUBLISHED: bool = True  # Filtra apenas trilhas publicadas
 
