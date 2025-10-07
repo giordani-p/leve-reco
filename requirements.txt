@@ -8,8 +8,8 @@ numpy==2.3.3
 scikit-learn==1.7.1
 
 # Database
-#psycopg2-binary==2.9.9
-psycopg[binary]
+psycopg2-binary==2.9.9
+#psycopg[binary]
 # Configuração
 python-dotenv==1.1.1
 pydantic==2.11.7
