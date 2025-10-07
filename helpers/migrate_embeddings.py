@@ -3,9 +3,17 @@
 CLI para migração de embeddings para PostgreSQL + pgvector.
 
 Uso:
+    # Configurar schema do banco (primeira vez)
+    python helpers/migrate_embeddings.py setup-schema
+    
+    # Migrar embeddings
     python helpers/migrate_embeddings.py --from-files files/trails.json
     python helpers/migrate_embeddings.py --from-api
-    python helpers/migrate_embeddings.py --validate
+    
+    # Verificar status
+    python helpers/migrate_embeddings.py validate
+    
+    # Limpar embeddings
     python helpers/migrate_embeddings.py --clear-all --confirm
 """
 
@@ -36,6 +44,22 @@ def setup_logging(verbose: bool = False):
         level=level,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
+
+
+def check_schema_exists(migrator: DataMigrator) -> bool:
+    """Check if required schema and table exist."""
+    try:
+        # Simple check for table existence - use COUNT instead of EXISTS for better compatibility
+        query = f"SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = '{migrator.cfg.RECO_SCHEMA}' AND table_name = 'trail_embeddings'"
+        with migrator.indexer.db.get_cursor() as cursor:
+            cursor.execute(query)
+            result = cursor.fetchone()
+            # Handle both dict and tuple results
+            count = result[0] if isinstance(result, tuple) else result['count']
+            return count > 0  # Return True if count > 0
+    except Exception as e:
+        console.print(f"[red]Schema check failed: {e}[/red]")
+        return False
 
 
 def print_stats(stats: MigrationStats):
@@ -75,6 +99,12 @@ def from_files(
     
     # Cria migrator com tamanho de lote customizado
     migrator = DataMigrator(cfg, batch_size=batch_size)
+    
+    # Verifica se a tabela existe
+    if not check_schema_exists(migrator):
+        console.print("[red]❌ Tabela reco.trail_embeddings não existe![/red]")
+        console.print("[yellow]Execute primeiro: python helpers/migrate_embeddings.py setup-schema[/yellow]")
+        sys.exit(1)
     
     try:
         with Progress(
@@ -122,6 +152,12 @@ def from_api(
     # Cria migrator com tamanho de lote customizado
     migrator = DataMigrator(cfg, batch_size=batch_size)
     
+    # Verifica se a tabela existe
+    if not check_schema_exists(migrator):
+        console.print("[red]❌ Tabela reco.trail_embeddings não existe![/red]")
+        console.print("[yellow]Execute primeiro: python helpers/migrate_embeddings.py setup-schema[/yellow]")
+        sys.exit(1)
+    
     try:
         with Progress(
             SpinnerColumn(),
@@ -166,6 +202,12 @@ def validate(
     
     # Create migrator
     migrator = DataMigrator(cfg)
+    
+    # Verifica se a tabela existe
+    if not check_schema_exists(migrator):
+        console.print("[red]❌ Tabela reco.trail_embeddings não existe![/red]")
+        console.print("[yellow]Execute primeiro: python helpers/migrate_embeddings.py setup-schema[/yellow]")
+        sys.exit(1)
     
     try:
         # Obtém status
@@ -218,6 +260,12 @@ def cleanup(
     # Create migrator
     migrator = DataMigrator(cfg)
     
+    # Verifica se a tabela existe
+    if not check_schema_exists(migrator):
+        console.print("[red]❌ Tabela reco.trail_embeddings não existe![/red]")
+        console.print("[yellow]Execute primeiro: python helpers/migrate_embeddings.py setup-schema[/yellow]")
+        sys.exit(1)
+    
     try:
         # Obtém embeddings atuais
         status = migrator.get_migration_status()
@@ -233,6 +281,40 @@ def cleanup(
     
     except Exception as e:
         console.print(f"[red]Cleanup failed: {e}[/red]")
+        sys.exit(1)
+    
+    finally:
+        migrator.close()
+
+
+@app.command()
+def setup_schema(
+    verbose: bool = typer.Option(False, "--verbose", "-v", help="Verbose logging"),
+):
+    """Setup database schema for embeddings."""
+    setup_logging(verbose)
+    
+    console.print("[bold blue]Configurando schema do banco de dados[/bold blue]")
+    
+    # Carrega configuração
+    cfg = RecoConfig()
+    
+    # Create migrator
+    migrator = DataMigrator(cfg)
+    
+    try:
+        # Tenta criar o schema
+        success = migrator.create_schema_if_missing()
+        
+        if success:
+            console.print("[green]✅ Schema configurado com sucesso![/green]")
+        else:
+            console.print("[red]❌ Falha ao configurar schema[/red]")
+            console.print("[yellow]Execute manualmente: psql -d your_database -f helpers/reco_schema.sql[/yellow]")
+            sys.exit(1)
+    
+    except Exception as e:
+        console.print(f"[red]Erro: {e}[/red]")
         sys.exit(1)
     
     finally:
@@ -258,6 +340,12 @@ def clear_all(
     
     # Create migrator
     migrator = DataMigrator(cfg)
+    
+    # Verifica se a tabela existe
+    if not check_schema_exists(migrator):
+        console.print("[red]❌ Tabela reco.trail_embeddings não existe![/red]")
+        console.print("[yellow]Execute primeiro: python helpers/migrate_embeddings.py setup-schema[/yellow]")
+        sys.exit(1)
     
     try:
         # Obtém status atual

@@ -7,7 +7,7 @@
 CREATE SCHEMA IF NOT EXISTS reco;
 
 -- Tabela de embeddings (referencia leve.trails por public_id)
-CREATE TABLE reco.trail_embeddings (
+CREATE TABLE IF NOT EXISTS reco.trail_embeddings (
     public_id UUID PRIMARY KEY,
     embedding VECTOR(768) NOT NULL,
     model_version VARCHAR(100) NOT NULL DEFAULT 'paraphrase-multilingual-mpnet-base-v2',
@@ -18,7 +18,7 @@ CREATE TABLE reco.trail_embeddings (
 );
 
 -- Índices para busca vetorial
-CREATE INDEX trail_embeddings_vector_idx 
+CREATE INDEX IF NOT EXISTS trail_embeddings_vector_idx 
 ON reco.trail_embeddings 
 USING ivfflat (embedding vector_cosine_ops) 
 WITH (lists = 100);
@@ -27,21 +27,21 @@ WITH (lists = 100);
 COMMENT ON INDEX trail_embeddings_vector_idx IS 'Índice ivfflat para busca por similaridade de cosseno';
 
 -- Índices para sincronização e performance
-CREATE INDEX trail_embeddings_public_id_idx 
+CREATE INDEX IF NOT EXISTS trail_embeddings_public_id_idx 
 ON reco.trail_embeddings (public_id);
 
-CREATE INDEX trail_embeddings_content_hash_idx 
+CREATE INDEX IF NOT EXISTS trail_embeddings_content_hash_idx 
 ON reco.trail_embeddings (content_hash);
 
-CREATE INDEX trail_embeddings_model_version_idx 
+CREATE INDEX IF NOT EXISTS trail_embeddings_model_version_idx 
 ON reco.trail_embeddings (model_version);
 
 -- Índice para metadados (filtros por status, difficulty, area)
-CREATE INDEX trail_embeddings_metadata_idx 
+CREATE INDEX IF NOT EXISTS trail_embeddings_metadata_idx 
 ON reco.trail_embeddings USING GIN (metadata);
 
 -- View para consultas unificadas (opcional)
-CREATE VIEW reco.trails_with_embeddings AS
+CREATE OR REPLACE VIEW reco.trails_with_embeddings AS
 SELECT 
     t.*,
     e.embedding,

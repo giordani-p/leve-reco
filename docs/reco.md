@@ -1,5 +1,49 @@
 # Sistema de Recomendação de Trilhas Educacionais - Leve Agents
 
+## 🚀 Primeira Vez - Configuração Inicial
+
+### Pré-requisitos
+- Python 3.12+
+- PostgreSQL com extensão pgvector
+- Arquivo `.env` configurado (copie de `env.reco.example`)
+
+### Configuração Inicial
+```bash
+# 1. Instalar dependências
+pip install -r requirements.txt
+
+# 2. Criar schema do banco de dados
+python helpers/migrate_embeddings.py setup-schema
+
+# 3. Testar conexão
+python helpers/test_db_connection.py
+```
+
+### Migração de Dados
+```bash
+# Migrar trilhas de arquivo local
+python helpers/migrate_embeddings.py from-files files/trails/trails_sanitized.json
+
+# OU migrar da API
+python helpers/migrate_embeddings.py from-api
+
+# Verificar status
+python helpers/migrate_embeddings.py validategit 
+```
+
+### Usar o Sistema
+```bash
+# Executar sistema de recomendação
+python cli/main_reco.py search "trilha para iniciantes" --limit 5
+```
+
+### Problemas Comuns
+- **Erro "Tabela não existe"**: Execute `python helpers/migrate_embeddings.py setup-schema`
+- **Erro pgvector**: Execute `CREATE EXTENSION IF NOT EXISTS vector;` no PostgreSQL
+- **Erro de conexão**: Verifique variáveis no `.env`
+
+---
+
 ## Visão Geral
 
 O Sistema de Recomendação de Trilhas Educacionais é um motor híbrido inteligente que combina busca semântica (MPNet) e busca textual (BM25) para recomendar trilhas educacionais personalizadas para jovens brasileiros. O sistema utiliza perfis psicológicos detalhados e contexto do usuário para gerar recomendações precisas, explicáveis e altamente relevantes.

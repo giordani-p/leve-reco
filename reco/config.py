@@ -145,37 +145,26 @@ class RecoConfig:
     # -----------------------------
     # Configurações do Banco de Dados (PostgreSQL + pgvector)
     # -----------------------------
-    # Constrói DATABASE_URL a partir de componentes individuais se não fornecida
-    _db_url = os.getenv("DATABASE_URL")
-    if not _db_url:
-        _db_user = os.getenv("POSTGRES_USER", "postgres")
-        _db_password = os.getenv("POSTGRES_PASSWORD", "password")
-        _db_host = os.getenv("POSTGRES_HOST", "localhost")
-        _db_port = os.getenv("POSTGRES_PORT", "5432")
-        _db_name = os.getenv("POSTGRES_DB", "leve_core")
-        _db_url = f"postgresql://{_db_user}:{_db_password}@{_db_host}:{_db_port}/{_db_name}"
+    # Configurações individuais do banco de dados (mais seguras e flexíveis)
+    POSTGRES_USER: str = os.getenv("POSTGRES_USER", "postgres")
+    POSTGRES_PASSWORD: str = os.getenv("POSTGRES_PASSWORD", "password")
+    POSTGRES_HOST: str = os.getenv("POSTGRES_HOST", "localhost")
+    POSTGRES_PORT: str = os.getenv("POSTGRES_PORT", "5432")
+    POSTGRES_DB: str = os.getenv("POSTGRES_DB", "leve_core")
     
-    DATABASE_URL: str = _db_url  # URL completa de conexão com o banco
+    # Schema e tabela do sistema de recomendação
     RECO_SCHEMA: str = "reco"  # Schema do sistema de recomendação
     MAIN_SCHEMA: str = "leve"  # Schema principal onde estão as trilhas
     EMBEDDING_TABLE: str = "trail_embeddings"  # Tabela de embeddings das trilhas
     
-    # Configurações do pool de conexões (configuráveis via .env)
+    # Configurações do pool de conexões (essenciais)
     DB_POOL_SIZE: int = int(os.getenv("DB_POOL_SIZE", "10"))  # Tamanho do pool
     DB_MAX_OVERFLOW: int = int(os.getenv("DB_MAX_OVERFLOW", "20"))  # Overflow máximo
-    DB_POOL_TIMEOUT: int = int(os.getenv("DB_POOL_TIMEOUT", "30"))  # Timeout do pool
-    DB_POOL_RECYCLE: int = int(os.getenv("DB_POOL_RECYCLE", "3600"))  # Reciclagem do pool
     
-    # Configurações de sincronização de embeddings (configuráveis via .env)
+    # Configurações de sincronização de embeddings (essenciais)
     SYNC_BATCH_SIZE: int = int(os.getenv("SYNC_BATCH_SIZE", "100"))  # Tamanho do lote de sincronização
-    SYNC_INTERVAL_MINUTES: int = int(os.getenv("SYNC_INTERVAL_MINUTES", "30"))  # Intervalo de sincronização
-    SYNC_ENABLED: bool = os.getenv("SYNC_ENABLED", "true").lower() == "true"  # Habilita sincronização
     
-    # Configurações de cache (configuráveis via .env)
-    CACHE_TTL_SECONDS: int = int(os.getenv("CACHE_TTL_SECONDS", "3600"))  # TTL do cache
-    CACHE_MAX_SIZE: int = int(os.getenv("CACHE_MAX_SIZE", "1000"))  # Tamanho máximo do cache
-    
-    # Seleção do backend do índice vetorial
+    # Backend do índice vetorial
     USE_PERSISTENT_INDEX: bool = os.getenv("USE_PERSISTENT_INDEX", "true").lower() == "true"
 
 

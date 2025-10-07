@@ -10,7 +10,6 @@ from __future__ import annotations
 import logging
 from contextlib import contextmanager
 from typing import Any, Dict, List, Optional, Tuple, Union
-from urllib.parse import urlparse
 
 import numpy as np
 import psycopg2
@@ -42,23 +41,13 @@ class DatabaseConnection:
     def _initialize_pool(self) -> None:
         """Initialize connection pool with pgvector support."""
         try:
-            # Parse database URL
-            parsed = urlparse(self.cfg.DATABASE_URL)
-            
-            # Parse database name (remove schema if present)
-            db_path = parsed.path.lstrip('/')
-            if '?' in db_path:
-                db_name = db_path.split('?')[0]
-            else:
-                db_name = db_path
-            
-            # Connection parameters
+            # Use individual connection parameters for better control and security
             conn_params = {
-                'host': parsed.hostname,
-                'port': parsed.port or 5432,
-                'database': db_name,
-                'user': parsed.username,
-                'password': parsed.password,
+                'host': self.cfg.POSTGRES_HOST,
+                'port': int(self.cfg.POSTGRES_PORT),
+                'database': self.cfg.POSTGRES_DB,
+                'user': self.cfg.POSTGRES_USER,
+                'password': self.cfg.POSTGRES_PASSWORD,
                 'options': '-c search_path=reco,leve,public',  # Set search path (reco first for our tables)
             }
             
@@ -216,7 +205,7 @@ class DatabaseConnection:
         query = f"""
         SELECT 
             COUNT(*) as total_embeddings,
-            ARRAY_AGG(DISTINCT model_version) as model_versions,
+            COALESCE(ARRAY_AGG(DISTINCT model_version) FILTER (WHERE model_version IS NOT NULL), ARRAY[]::text[]) as model_versions,
             MAX(updated_at) as last_updated,
             768 as avg_dimension
         FROM {self.cfg.RECO_SCHEMA}.trail_embeddings
@@ -225,7 +214,19 @@ class DatabaseConnection:
         with self.get_cursor() as cursor:
             cursor.execute(query)
             result = cursor.fetchone()
-            return dict(result) if result else {}
+            if result:
+                stats = dict(result)
+                # Ensure model_versions is always a list
+                if stats.get('model_versions') is None:
+                    stats['model_versions'] = []
+                return stats
+            else:
+                return {
+                    'total_embeddings': 0,
+                    'model_versions': [],
+                    'last_updated': None,
+                    'avg_dimension': 768
+                }
     
     def get_outdated_embeddings(self, current_hashes: Dict[str, str]) -> List[str]:
         """

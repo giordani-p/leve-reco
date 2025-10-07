@@ -3,7 +3,7 @@
 Script de teste para verificar conexão com PostgreSQL + pgvector.
 
 Uso:
-    python test_db_connection.py
+    python helpers/test_db_connection.py
 """
 
 import sys
@@ -36,15 +36,11 @@ def test_connection():
         # Restore original host
         if original_host:
             os.environ['POSTGRES_HOST'] = original_host
-        # Mask password in URL for security
-        masked_url = cfg.DATABASE_URL
-        if '@' in masked_url and ':' in masked_url.split('@')[0]:
-            user_pass, rest = masked_url.split('@', 1)
-            if ':' in user_pass:
-                user, _ = user_pass.split(':', 1)
-                masked_url = f"{user}:***@{rest}"
         
-        console.print(f"Database URL: {masked_url}")
+        # Display connection info (mask password for security)
+        console.print(f"Database Host: {cfg.POSTGRES_HOST}:{cfg.POSTGRES_PORT}")
+        console.print(f"Database Name: {cfg.POSTGRES_DB}")
+        console.print(f"Database User: {cfg.POSTGRES_USER}")
         console.print(f"Schema: {cfg.RECO_SCHEMA}")
         
         # Test connection
@@ -55,7 +51,9 @@ def test_connection():
         with db.get_cursor() as cursor:
             cursor.execute("SELECT version();")
             version = cursor.fetchone()
-            console.print(f"[green]✓ PostgreSQL version: {version[0]}[/green]")
+            # Handle both dict and tuple results
+            version_str = version[0] if isinstance(version, tuple) else version['version']
+            console.print(f"[green]✓ PostgreSQL version: {version_str}[/green]")
         
         # Test pgvector extension
         with db.get_cursor() as cursor:

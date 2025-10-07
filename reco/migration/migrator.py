@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Dict, List, Optional, Set
 from datetime import datetime
 
@@ -253,6 +254,39 @@ class DataMigrator:
     def get_migration_status(self) -> Dict[str, any]:
         """Get current migration status."""
         return self.indexer.get_stats()
+    
+    
+    def create_schema_if_missing(self) -> bool:
+        """
+        Create the required schema and tables if they don't exist.
+        
+        Returns:
+            True if schema was created or already exists, False if failed
+        """
+        logger.info("Ensuring database schema exists")
+        
+        try:
+            # Read and execute schema SQL
+            schema_path = Path(__file__).parent.parent.parent / "helpers" / "reco_schema.sql"
+            
+            if not schema_path.exists():
+                logger.error(f"Schema file not found: {schema_path}")
+                return False
+            
+            with open(schema_path, 'r', encoding='utf-8') as f:
+                schema_sql = f.read()
+            
+            # Execute schema creation
+            with self.indexer.db.get_cursor() as cursor:
+                cursor.execute(schema_sql)
+                cursor.connection.commit()
+            
+            logger.info("Database schema created/verified successfully")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Failed to create schema: {e}")
+            return False
     
     def close(self) -> None:
         """Close connections and cleanup resources."""
