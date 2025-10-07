@@ -3,8 +3,8 @@
 Script rápido para limpar todos os embeddings do banco.
 
 Uso:
-    python scripts/clear_embeddings.py
-    python scripts/clear_embeddings.py --confirm  # Pula confirmação
+    python helpers/clear_embeddings.py
+    python helpers/clear_embeddings.py --confirm  # Pula confirmação
 """
 
 import sys

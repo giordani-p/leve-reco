@@ -50,7 +50,7 @@ def main():
     
     # 1. Limpar todos os embeddings
     if not run_command(
-        "python cli/migrate_embeddings.py clear-all --confirm --verbose",
+        "python helpers/migrate_embeddings.py clear-all --confirm --verbose",
         "Limpando todos os embeddings existentes"
     ):
         print("ERROR Falha na limpeza. Abortando teste.")
@@ -58,13 +58,13 @@ def main():
     
     # 2. Verificar status após limpeza
     run_command(
-        "python cli/migrate_embeddings.py validate --verbose",
+        "python helpers/migrate_embeddings.py validate --verbose",
         "Verificando status após limpeza"
     )
     
     # 3. Migrar da API
     if not run_command(
-        "python cli/migrate_embeddings.py from-api --verbose --batch-size 10",
+        "python helpers/migrate_embeddings.py from-api --verbose --batch-size 10",
         "Migrando embeddings da API"
     ):
         print("ERROR Falha na migração. Abortando teste.")
@@ -72,7 +72,7 @@ def main():
     
     # 4. Validar migração
     if not run_command(
-        "python cli/migrate_embeddings.py validate --verbose",
+        "python helpers/migrate_embeddings.py validate --verbose",
         "Validando migração final"
     ):
         print("ERROR Validação falhou.")

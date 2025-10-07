@@ -3,10 +3,10 @@
 CLI para migração de embeddings para PostgreSQL + pgvector.
 
 Uso:
-    python cli/migrate_embeddings.py --from-files files/trails.json
-    python cli/migrate_embeddings.py --from-api
-    python cli/migrate_embeddings.py --validate
-    python cli/migrate_embeddings.py --clear-all --confirm
+    python helpers/migrate_embeddings.py --from-files files/trails.json
+    python helpers/migrate_embeddings.py --from-api
+    python helpers/migrate_embeddings.py --validate
+    python helpers/migrate_embeddings.py --clear-all --confirm
 """
 
 import logging
